@@ -11,7 +11,7 @@ $.ajaxSetup({
 $.ajax({
 	url: baseUrl + '/board',
 	method: 'GET',
-	sucess: function(response){
+	success: function(response){
 		setupColumns(response.columns);
 	}
 });
