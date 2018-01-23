@@ -8,7 +8,7 @@ var board = {
 };
 
 $('.create-column').click(function(){
-	var columnName = prompt('Wpisz nazwę kolumny'); //rozdzielenie
+	var columnName = prompt('Enter a column name'); //rozdzielenie
 	$.ajax({
 		url: baseUrl + '/column',
 		method: 'POST',

@@ -3,7 +3,7 @@ function Card(id, name) {
 	var self = this;
 	
 	this.id = id;
-	this.name = name || 'Brak nazwy';
+	this.name = name || 'No name';
 	this.element = createCard();
 
 	function createCard() {
